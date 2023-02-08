@@ -73,7 +73,6 @@ a {
 
 .block {
   padding-top: 128px;
-  height: 556px;
   background: #000915;
 }
 
@@ -85,6 +84,7 @@ a {
 .games_text {
   height: 300px;
   width: 379px;
+  font-style: normal;
   font-weight: 600;
   font-size: 34px;
   line-height: 41px;
@@ -119,6 +119,51 @@ a {
 .games_text:hover {
   border: 3px solid #44D2FF;
   border-radius: 16px;
+}
+
+.games__seasons {
+  padding-top: 282px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 135px;
+  height: 800px;
+  background: #000915;
+}
+.games__seasons-block {
+  width: 584px;
+  height: 235.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+.games__seasons-text {
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+.games__seasons-subtext {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+.games__seasons-link {
+  width: 234px;
+  height: 48px;
+  background: #9C0332;
+  border-radius: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.games__seasons-link:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 767px) {
